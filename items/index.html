@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>items</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-area">
+        <header class="bg-succes text-white p-4 mb-3" id="main-header">
+            <div class="container">
+                <div class="row">
+                    <div class="header-title">
+                        <h2>item lister</h2>
+                    </div>
+                    <div>
+                        <input type="text" class="form-control" id="filter" placeholder="search items......">
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+        <div class="container">
+            <form class="form-area" id="addForm">
+                <input type="text" placeholder="" class="text-area" id="item"> <br><br>
+                <select class="form-control">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                
+                <input type="submit" class="button" value="submit">
+                
+            </form>
+            <div id="output"></div>
+            <br>
+            <ul class="list-group-item">
+                <li class="list-items">item1  <button class="btn btn-danger btn-sm float-right delete" >X</button></li>
+                <li class="list-items">item2  <button class="btn btn-danger btn-sm float-right delete" >X</button></li>
+                <li class="list-items">item3  <button class="btn btn-danger btn-sm float-right delete" >X</button></li>
+                <li class="list-items">item4  <button class="btn btn-danger btn-sm float-right delete" >X</button></li>
+            </ul>
+            <br>
+            <button class="btn btn-dark btn-black" id="button">Click Here</button>
+            <br>
+            <div id="box" style="width:400px;height:200px;background:#f4f4f4">
+            
+            </div>
+        </div>
+        
+    </div>
+    
+   
+    <script src="mainn.js">  
+    </script>
+</body>
+</html>

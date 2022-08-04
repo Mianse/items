@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+}
+.main-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header{
+    background: green;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+   
+}
+.row{
+    display: flex;
+}
+
+.text-area{
+    width: 30%;
+}
+
+.list-item1{
+    border: 1px solid black;
+
+}
+
+.list-items{
+    border: 1px solid black ;
+    padding: 10px;
+}
+
+.button{
+    width: 30%;
+    height: 50px;
+    background: black;
+    color: aliceblue;
+    border: none;
+}
+
